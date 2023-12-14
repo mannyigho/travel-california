@@ -1,4 +1,13 @@
 /* Global styles ============= */
+:root {
+  --purple-bg-color: rgb(86, 86, 199);
+  --hero-text-bg-color: rgba(124, 239, 239, 0.87);
+  --white-color: #ffffff;
+  --blueish-color: rgb(95, 110, 141);
+  --border-right-color: rgb(73, 70, 70);
+}
+
+
 html,
 body {
   width: 100%;
@@ -52,4 +61,55 @@ section {
 
 section h2 {
   font-size: 50px;
+}
+
+
+#mainNav {
+  
+}
+
+/* Setting CSS attributes for the logo class inside the mainNav element in the HTML page*/
+#mainNav > .logo {
+  display: inline-block;
+  font-size: 28px;
+  padding: 0px 15px;
+}
+
+/* Setting CSS attributes for the navbar class inside the mainNav element in the HTML page */
+#mainNav > .navbar {
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* Setting CSS attributes for the unordered list inside the nav element*/
+nav .navbar ul {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+/* Setting CSS attributes for the list items inside the nav element */
+nav .navbar ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+/* Setting the text color for the anchor tags inside the list items residing within the nav element */
+nav .navbar ul li a {
+  color: var(--white-color);
+}
+
+/* Setting the background image for the header element and applying several CSS attributes*/
+header {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  background-image: url('../images/bg-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
