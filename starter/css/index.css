@@ -63,16 +63,19 @@ section h2 {
   font-size: 50px;
 }
 
+/* Changing the font-color and margin of the Bootstrap Brand / Logo*/
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
   color: #fdcc52;
   margin-left: 50px;
 }
 
+/* Changing the font-color and font-size of the Bootstrap link items */
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
-   color: var(--white-color);
+  color: var(--white-color);
 }
 
+/* Adding margin right to the Bootstrap link items */
 .navbar-expand-lg .navbar-collapse {
   margin-right: 70px;
 }
@@ -86,7 +89,7 @@ header {
   height: 120vh;
 }
 
-
+/* Styling the entire head head section by converting it to flex container*/
 .explorer-block {
   display: flex;
   flex-wrap: wrap;
@@ -96,14 +99,17 @@ header {
   padding-top: 65px;
 }
 
+/* Styling the Download the California Travel App text*/
 .explorer-text {
   width: 250px;
   color: var(--white-color);
   font-size: 24px;
   margin: 40px auto;
   text-align: left;
+  padding-left: 15px;
 }
 
+/* Styling the CTA in the banner under the Download the Travel California App */
 .explorer-btn {
   color: var(--white-color);
   padding: 8px;
@@ -113,7 +119,86 @@ header {
   width: 150px;
 }
 
+/* Position the Phone Image in the top banner*/
 .explorer-phone {
   padding-top: 65px;
   text-align: center;
+}
+
+.download {
+  display: flex;
+  background-color: #e3b02d;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-big-text {
+  font-size: 48px;
+  line-height: 120%;
+  padding: 10px;
+}
+
+.download-small-text {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.google-image {
+  width: 200px;
+  height: 80px;
+}
+
+.app-image {
+  width: 200px;
+  height: 55px;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.cardContainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card {
+  margin: 50px auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.travel-CTA {
+  background: url(../images/SF.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  width: 600px;
+  margin: 35px auto;
+  padding: 20px;
+}
+
+.form-text {
+  color: var(--white-color);
+  font-size: 42px;
 }
