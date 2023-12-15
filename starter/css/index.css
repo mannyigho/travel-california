@@ -126,6 +126,7 @@ header {
   text-align: center;
 }
 
+/* Styling the download section of the page*/
 .download {
   display: flex;
   background-color: #e3b02d;
@@ -136,22 +137,26 @@ header {
   padding-bottom: 40px;
 }
 
+/* Styling the bigger text on the download section of the page*/
 .download-big-text {
   font-size: 48px;
   line-height: 120%;
   padding: 10px;
 }
 
+/* Styling the smaller text of the download section of the page */
 .download-small-text {
   margin-top: 15px;
   padding: 10px;
 }
 
+/* Styling the google play image on the download section of the page */
 .google-image {
   width: 200px;
   height: 80px;
 }
 
+/* Styling the App store image on the download section of the page */
 .app-image {
   width: 200px;
   height: 55px;
@@ -164,12 +169,13 @@ header {
   font-weight: bold;
 }
 
-
+/* Styling the card container elements on the page */
 .cardContainer {
   margin-top: 20px;
   text-align: center;
 }
 
+/* Styling the card elements on the page */
 .card {
   margin: 50px auto;
   border: none;
@@ -178,21 +184,25 @@ header {
   justify-content: center;
 }
 
+/* Styling the images element inside the card elements */
 .card img {
   width: 200px;
   height: 200px;
   text-align: center;
 }
 
+/* Styling the card-title inside the H5 elements */
 h5.card-title {
   font-weight: bolder;
   font-size: 24px;
 }
 
+/* Styling the card-text inside the P elements */
 p.card-text {
   text-align: justify;
 }
 
+/* Styling the background of the Call To Action, adding a background image */
 .travel-CTA {
   background: url(../images/SF.png);
   background-size: cover;
@@ -205,24 +215,28 @@ p.card-text {
   justify-content: center;
 }
 
+/* Styling the form element */
 form {
   width: 600px;
   margin: 35px auto;
   padding: 20px;
 }
 
+/* Styling the form text */
 .form-text {
   color: var(--white-color);
   font-size: 42px;
   margin-bottom: 30px;
 }
 
+/* Styling the header text */
 .bg-black {
   background-color: #000000;
   padding: 5px 40px 5px 40px;
   margin-top: -16px;
 }
 
+/* Styling the card width and height */
 .contact-card {
   width: 300px;
   height: 200px;
@@ -230,24 +244,37 @@ form {
   text-align: center;
 }
 
-.icon-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+/* Styling the icons container*/
+.icon-container {
+  width: 25%;
+  margin: auto;
+  height: 100px;
+  text-align: center;
+  border: 0px solid #fff;
+  float: center;
 }
 
-.rounded-circle {
-  border: 1px solid #ffffff;
-}
-
+/* Styling the content of the icon-link li */
 .icon-link {
   display: flex;
-  margin-top: 20px;
   align-items: center;
   justify-content: space-evenly;
   gap: 20px;
   list-style: none;
   color: #ffffff;
+  float: center;
+  margin: 10px auto;
+}
+
+/* Styling the footer element */
+footer {
+  background-color: #252116ad;
+  padding: 20px;
+}
+
+/* Styling the footer text */
+.footer-text {
+  text-align: center;
+  color: #e3e1dbad;
 }
 
