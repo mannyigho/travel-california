@@ -55,8 +55,9 @@ p {
   margin-bottom: 20px;
 }
 
-section {
-  padding: 100px 0;
+testimonials-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 section h2 {
@@ -131,6 +132,8 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .download-big-text {
@@ -156,7 +159,8 @@ header {
 
 .sectionHeading {
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
@@ -180,6 +184,15 @@ header {
   text-align: center;
 }
 
+h5.card-title {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+p.card-text {
+  text-align: justify;
+}
+
 .travel-CTA {
   background: url(../images/SF.png);
   background-size: cover;
@@ -201,4 +214,40 @@ form {
 .form-text {
   color: var(--white-color);
   font-size: 42px;
+  margin-bottom: 30px;
 }
+
+.bg-black {
+  background-color: #000000;
+  padding: 5px 40px 5px 40px;
+  margin-top: -16px;
+}
+
+.contact-card {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-circle {
+  border: 1px solid #ffffff;
+}
+
+.icon-link {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  list-style: none;
+  color: #ffffff;
+}
+
